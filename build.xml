@@ -1,0 +1,18 @@
+<project name="MyProject" default="dist" basedir=".">
+  <description>
+    simple example build file
+  </description>
+
+  <target name="clean" description="clean up">
+	<delete file="demo.war"/>
+  </target>
+
+  <target name="war">
+    <war destfile="demo.war" webxml="./WEB-INF/web.xml">
+      <fileset dir=".">
+         <include name="**/index.html"/>
+      </fileset>
+    </war>
+  </target>
+
+</project>
