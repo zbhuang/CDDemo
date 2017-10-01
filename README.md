@@ -7,6 +7,8 @@ The result can be checked from here, http://18.221.214.173:8080/demo/
 
 0. Software dependency.
 You need to install git, ant, java (I am using Java8)
+Apache Ant - download it and unzip it to your local disk and add it to your system environment.
+In my case, windows, I add its bin folder to the env, Path.
 
 1. Copy post-commit to this project's .git\hooks folder
 After you pull this project, there will be .git\hooks folder, which is hidden.
