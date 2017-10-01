@@ -8,8 +8,12 @@ The result can be checked from here, http://18.221.214.173:8080/demo/
 
 0. Software dependency.
 You need to install git, ant, java.
+
 a) git
+
 (I am using git for windows https://git-for-windows.github.io/)
+
+
 b) Java - please check this webiste for the installation - 
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
 (I am using Java8)
