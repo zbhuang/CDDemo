@@ -1,7 +1,6 @@
 #!/bin/sh
 echo look at me I am the post-commit script
 pwd
-I am trying to wrapp up some files as a war file to be deployed in the aws
 ant clean
 ant war
 # call the script you want
