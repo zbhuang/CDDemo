@@ -3,16 +3,11 @@ echo look at me I am the post-commit script
 pwd
 
 # build the war file
-ant clean
 ant war
 
 # upload the war file to aws tomcat server webapps directory
-scp -i ../myKey/zbhuang0625.pem demo.war ec2-user@18.221.214.173:/usr/share/tomcat8/webapps
-
-# change war file permission, otherwise, this war file will not be hot-deployed
-ssh -i ../myKey/zbhuang0625.pem ec2-user@ec2-18-221-214-173.us-east-2.compute.amazonaws.com
-sudo chmod 755 /usr/share/tomcat8/webapps/demo.war
-exit
+scp -i zbhuang0625.pem demo.war ec2-user@18.221.214.173:/usr/share/tomcat8/webapps
+sleep 3
 
 ant clean
 
