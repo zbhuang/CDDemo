@@ -45,3 +45,5 @@ e) git checkout master
 f) git merge new-feature
 
 4. Improvement
+
+To support pull request which is done from GitHub website, installing & configuring a Jekins on my AWS and include github plugin to do it is a good solution. Or I need to try using GitHub Rest API - Automating deployments to integrators (https://developer.github.com/v3/guides/automating-deployments-to-integrators/).
