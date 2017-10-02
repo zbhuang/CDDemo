@@ -31,11 +31,17 @@ The it will be uploaded to the Tomcat8 server for the hot deployment (in my aws 
 You can check the change in that counter here, http://18.221.214.173:8080/demo/.
 
 3. The following git operation is used to test this post-merge script.
+
 a) git checkout -b new-feature master
+
 b) edit index.html file and updaet that counter
+
 c) git add index.html
+
 d) git commit -m "update the counter"
+
 e) git checkout master
+
 f) git merge new-feature
 
 4. Improvement
