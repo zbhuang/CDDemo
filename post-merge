@@ -6,7 +6,7 @@ pwd
 ant war
 
 # upload the war file to aws tomcat server webapps directory
-scp -i zbhuang0625.pem demo.war ec2-user@18.221.214.173:/usr/share/tomcat8/webapps
+scp -i zbhuang0625.pem demo.war ec2-user@13.59.181.21:/usr/share/tomcat8/webapps
 sleep 3
 
 ant clean
