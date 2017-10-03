@@ -4,7 +4,7 @@ This is the demo of the continuous deployment (Concurrently it is version 0.1).
 A static website (index.html) is taken as an example to show how to run CD on the aws Tomcat server.
 Once a new branch, with the change in index.html, is merged into the master, "ant" will wrap up this static web app into a demo.war file.
 And this war file will be pushed to my aws Tomcat server (for hot deployment).
-The result can be checked from here, http://18.221.214.173:8080/demo/
+The result can be checked from here, http://18.221.214.173:8080/demo/ (this link is no longer working because that AWS instance is terminated)
 
 0. Software dependency.
 You need to install git, ant, java.
