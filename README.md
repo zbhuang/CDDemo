@@ -12,9 +12,9 @@ a) git
 (I am using git for windows https://git-for-windows.github.io/)
 
 1. Setup in my AWS EC2 instance.
-1) Install Java8, Git, Ant, Jenkins, Tomcat8.
+1). Install Java8, Git, Ant, Jenkins, Tomcat8.
 
-2) 
+2). 
 
 2. Comparison from version 0.1
 
