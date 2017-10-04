@@ -13,9 +13,15 @@ a) git
 
 1. Setup in my AWS EC2 instance.
 
-a). Install Java8, Git, Ant, Jenkins, Tomcat8.
+a) Install Java8, Git, Ant, Jenkins, Tomcat8.
 
-b). 
+b) Jenkins' port 8081, Tomcat8's port 8080.
+
+c) Config this repo to provide Webhooks.
+
+d) Jenkins - install/config git plugin, deploy war to container plugin.
+
+e) Run chmod to give permission to the aws ec2user to deploy the war file to webapps folder.
 
 2. Comparison from version 0.1
 
